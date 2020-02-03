@@ -1,8 +1,12 @@
 {
     "name": "dart-testing-snippets",
     "displayName": "Dart Testing Snippets",
-    "description": "Snippets to help imporving testing in dart",
-    "version": "0.0.1",
+    "description": "Snippets to help improve testing in dart",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cajun-code/dart-testing-snippets"
+    },
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.41.0"
     },
