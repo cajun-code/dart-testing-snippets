@@ -16,5 +16,20 @@
         "prefix":"!FLT_method",
         "description":"Flutter Test Method",
         "body":"test(\"${1:Test}\", () async{});"
+    }, 
+    "Flutter Test Group":{
+        "prefix":"!FLT_group",
+        "description":"create a flutter test grouping",
+        "body":"group(\"${1:Test}\", (){});"
+    }, 
+    "Flutter Test Setup":{
+        "prefix":"!FLT_setup",
+        "description":"create a flutter test setup method",
+        "body":"setup((){$1});"
+    }, 
+    "Flutter Test TearDown":{
+        "prefix":"!FLT_tear",
+        "description":"create a flutter test tear down method",
+        "body":"teardown((){$1});"
     }
 }
