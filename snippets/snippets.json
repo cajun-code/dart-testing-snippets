@@ -1,16 +1,20 @@
 {
     "Flutter Unit test main":{
-        "prefix": "!flutter-unit-test",
+        "prefix": "!FLT_main",
         "description": "Flutter Unit Main Starter",
         "body":[
             "import 'package:flutter_test/flutter_test.dart';",
             "import 'package:flutter/material.dart';",
-            "import 'package:mockito/mockito.dart';",
             "$0",
             "void main(){",
             "  setUp((){});",
             "  test(\"${1:Test}\", () async{});",
             "}"
         ]
+    },
+    "Flutter Test Method":{
+        "prefix":"!FLT_method",
+        "description":"Flutter Test Method",
+        "body":"test(\"${1:Test}\", () async{});"
     }
 }
